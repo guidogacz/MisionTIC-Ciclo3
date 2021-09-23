@@ -14,15 +14,24 @@ body {
     margin: 0px;
 }
 
+.button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    /*borde redondo*/
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    /*aumenta tamaño */
+}
+
 .mainButton {
     background-color: #1bb77e;
     color: white;
     cursor: pointer;
     /* curso manito*/
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    /*borde redondo*/
     font-weight: bolder;
     /*negrita*/
     box-shadow: 2px 2px green;
@@ -30,8 +39,14 @@ body {
 }
 
 .mainButton:hover {
-    cursor: pointer;
     box-shadow: 4px 4px green;
-    transform: scale(1.1);
-    /*aumenta tamaño */
+}
+
+.secondaryButton {
+    background-color: #66d8;
+    color: white;
+}
+
+.secondaryButton:hover {
+    box-shadow: 1px 1px blueviolet;
 }
