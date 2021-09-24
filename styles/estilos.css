@@ -16,6 +16,7 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .logo {
     height: 50px;
 =======
@@ -61,4 +62,20 @@ body {
 .secondaryButton:hover {
     box-shadow: 1px 1px blueviolet;
 >>>>>>> 6-crear-boton-login
+=======
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 1px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within {
+    border: 1px blue;
+}
+
+.buscar>input {
+    outline: none;
+    border: 0px;
+>>>>>>> 8-crear-cuadro-de-busqueda
 }
